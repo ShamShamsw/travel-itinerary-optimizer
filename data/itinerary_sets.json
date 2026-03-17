@@ -1,0 +1,122 @@
+[
+  {
+    "destination_id": "dest_001",
+    "label": "weekend_city_mix",
+    "name": "Historic Museum",
+    "x": 1.2,
+    "y": 3.4,
+    "visit_minutes": 85,
+    "cost_usd": 18.0,
+    "priority": 8.4,
+    "description": "Core culture stop with high educational value.",
+    "tags": [
+      "culture",
+      "indoors"
+    ]
+  },
+  {
+    "destination_id": "dest_002",
+    "label": "weekend_city_mix",
+    "name": "River Walk",
+    "x": 4.6,
+    "y": 2.3,
+    "visit_minutes": 50,
+    "cost_usd": 0.0,
+    "priority": 7.2,
+    "description": "Scenic walking route with flexible timing.",
+    "tags": [
+      "outdoors",
+      "photo"
+    ]
+  },
+  {
+    "destination_id": "dest_003",
+    "label": "weekend_city_mix",
+    "name": "Street Food Market",
+    "x": 2.8,
+    "y": 5.1,
+    "visit_minutes": 70,
+    "cost_usd": 24.0,
+    "priority": 8.8,
+    "description": "High reward food cluster with moderate cost.",
+    "tags": [
+      "food",
+      "social"
+    ]
+  },
+  {
+    "destination_id": "dest_004",
+    "label": "weekend_city_mix",
+    "name": "City Observation Deck",
+    "x": 6.4,
+    "y": 4.3,
+    "visit_minutes": 60,
+    "cost_usd": 30.0,
+    "priority": 7.6,
+    "description": "Panoramic skyline experience.",
+    "tags": [
+      "views",
+      "landmark"
+    ]
+  },
+  {
+    "destination_id": "dest_005",
+    "label": "weekend_city_mix",
+    "name": "Botanical Garden",
+    "x": 5.2,
+    "y": 7.0,
+    "visit_minutes": 75,
+    "cost_usd": 16.0,
+    "priority": 7.9,
+    "description": "Low-noise nature visit with broad paths.",
+    "tags": [
+      "nature",
+      "relax"
+    ]
+  },
+  {
+    "destination_id": "dest_006",
+    "label": "weekend_city_mix",
+    "name": "Science Center",
+    "x": 8.0,
+    "y": 2.6,
+    "visit_minutes": 95,
+    "cost_usd": 22.0,
+    "priority": 9.1,
+    "description": "Hands-on exhibits and interactive galleries.",
+    "tags": [
+      "education",
+      "indoors"
+    ]
+  },
+  {
+    "destination_id": "dest_007",
+    "label": "weekend_city_mix",
+    "name": "Art District",
+    "x": 7.1,
+    "y": 6.8,
+    "visit_minutes": 65,
+    "cost_usd": 12.0,
+    "priority": 8.1,
+    "description": "Murals, small galleries, and local shops.",
+    "tags": [
+      "art",
+      "walking"
+    ]
+  },
+  {
+    "destination_id": "dest_008",
+    "label": "weekend_city_mix",
+    "name": "Night Jazz Club",
+    "x": 9.2,
+    "y": 5.5,
+    "visit_minutes": 80,
+    "cost_usd": 28.0,
+    "priority": 8.5,
+    "description": "Late-evening music venue with ticketed entry.",
+    "tags": [
+      "music",
+      "nightlife"
+    ]
+  }
+]

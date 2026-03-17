@@ -1,0 +1,14 @@
+[
+  {
+    "session_id": "20260317_221020",
+    "demo_sequence_label": "weekend_city_mix",
+    "strategy_selected": "brute_force",
+    "routes_evaluated": 2,
+    "stops_planned": 6,
+    "runtime_points": 40,
+    "elapsed_ms": 5081.4735,
+    "best_strategy": "greedy",
+    "finished_at": "2026-03-17T22:10:25Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\46-travel-itinerary-optimizer\\data\\outputs\\run_20260317_221020.json"
+  }
+]

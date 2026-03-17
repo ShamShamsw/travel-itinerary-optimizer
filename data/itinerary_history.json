@@ -1,0 +1,98 @@
+[
+  {
+    "event_type": "itinerary_plan",
+    "payload": {
+      "session_id": "20260317_221020",
+      "strategy": "brute_force",
+      "stops_planned": 6,
+      "total_minutes": 502.191,
+      "total_cost_usd": 100.0,
+      "total_score": 391.825875
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 1,
+      "name": "Historic Museum",
+      "travel_minutes": 21.633,
+      "visit_minutes": 85,
+      "cost_usd": 18.0,
+      "score_gain": 65.43835,
+      "cumulative_minutes": 106.633,
+      "cumulative_cost_usd": 18.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 2,
+      "name": "Street Food Market",
+      "travel_minutes": 14.007,
+      "visit_minutes": 70,
+      "cost_usd": 24.0,
+      "score_gain": 72.89536,
+      "cumulative_minutes": 190.64,
+      "cumulative_cost_usd": 42.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 3,
+      "name": "Botanical Garden",
+      "travel_minutes": 18.366,
+      "visit_minutes": 75,
+      "cost_usd": 16.0,
+      "score_gain": 63.06192,
+      "cumulative_minutes": 284.007,
+      "cumulative_cost_usd": 58.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 4,
+      "name": "Art District",
+      "travel_minutes": 11.463,
+      "visit_minutes": 65,
+      "cost_usd": 12.0,
+      "score_gain": 70.54906,
+      "cumulative_minutes": 360.47,
+      "cumulative_cost_usd": 70.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 5,
+      "name": "City Observation Deck",
+      "travel_minutes": 15.577,
+      "visit_minutes": 60,
+      "cost_usd": 30.0,
+      "score_gain": 58.37501,
+      "cumulative_minutes": 436.047,
+      "cumulative_cost_usd": 100.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  },
+  {
+    "event_type": "itinerary_stop",
+    "payload": {
+      "stop_index": 6,
+      "name": "River Walk",
+      "travel_minutes": 16.144,
+      "visit_minutes": 50,
+      "cost_usd": 0.0,
+      "score_gain": 61.50617,
+      "cumulative_minutes": 502.191,
+      "cumulative_cost_usd": 100.0
+    },
+    "created_at": "2026-03-17T22:10:21Z"
+  }
+]
