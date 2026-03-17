@@ -1,0 +1,349 @@
+{
+  "session_id": "20260317_221020",
+  "config": {
+    "project_type": "travel_itinerary_optimizer",
+    "strategy": "brute_force",
+    "enabled_strategies": [
+      "greedy",
+      "brute_force"
+    ],
+    "demo_sequence_label": "weekend_city_mix",
+    "max_trip_minutes": 520,
+    "max_budget_usd": 180.0,
+    "benchmark_stop_counts": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "benchmark_trials": 4,
+    "include_runtime_plot": true,
+    "include_value_plot": true,
+    "max_preview_rows": 8,
+    "random_seed": 42,
+    "created_at": "2026-03-17T22:10:20Z"
+  },
+  "destinations": [
+    {
+      "destination_id": "dest_001",
+      "label": "weekend_city_mix",
+      "name": "Historic Museum",
+      "x": 1.2,
+      "y": 3.4,
+      "visit_minutes": 85,
+      "cost_usd": 18.0,
+      "priority": 8.4,
+      "description": "Core culture stop with high educational value.",
+      "tags": [
+        "culture",
+        "indoors"
+      ]
+    },
+    {
+      "destination_id": "dest_002",
+      "label": "weekend_city_mix",
+      "name": "River Walk",
+      "x": 4.6,
+      "y": 2.3,
+      "visit_minutes": 50,
+      "cost_usd": 0.0,
+      "priority": 7.2,
+      "description": "Scenic walking route with flexible timing.",
+      "tags": [
+        "outdoors",
+        "photo"
+      ]
+    },
+    {
+      "destination_id": "dest_003",
+      "label": "weekend_city_mix",
+      "name": "Street Food Market",
+      "x": 2.8,
+      "y": 5.1,
+      "visit_minutes": 70,
+      "cost_usd": 24.0,
+      "priority": 8.8,
+      "description": "High reward food cluster with moderate cost.",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "destination_id": "dest_004",
+      "label": "weekend_city_mix",
+      "name": "City Observation Deck",
+      "x": 6.4,
+      "y": 4.3,
+      "visit_minutes": 60,
+      "cost_usd": 30.0,
+      "priority": 7.6,
+      "description": "Panoramic skyline experience.",
+      "tags": [
+        "views",
+        "landmark"
+      ]
+    },
+    {
+      "destination_id": "dest_005",
+      "label": "weekend_city_mix",
+      "name": "Botanical Garden",
+      "x": 5.2,
+      "y": 7.0,
+      "visit_minutes": 75,
+      "cost_usd": 16.0,
+      "priority": 7.9,
+      "description": "Low-noise nature visit with broad paths.",
+      "tags": [
+        "nature",
+        "relax"
+      ]
+    },
+    {
+      "destination_id": "dest_006",
+      "label": "weekend_city_mix",
+      "name": "Science Center",
+      "x": 8.0,
+      "y": 2.6,
+      "visit_minutes": 95,
+      "cost_usd": 22.0,
+      "priority": 9.1,
+      "description": "Hands-on exhibits and interactive galleries.",
+      "tags": [
+        "education",
+        "indoors"
+      ]
+    },
+    {
+      "destination_id": "dest_007",
+      "label": "weekend_city_mix",
+      "name": "Art District",
+      "x": 7.1,
+      "y": 6.8,
+      "visit_minutes": 65,
+      "cost_usd": 12.0,
+      "priority": 8.1,
+      "description": "Murals, small galleries, and local shops.",
+      "tags": [
+        "art",
+        "walking"
+      ]
+    },
+    {
+      "destination_id": "dest_008",
+      "label": "weekend_city_mix",
+      "name": "Night Jazz Club",
+      "x": 9.2,
+      "y": 5.5,
+      "visit_minutes": 80,
+      "cost_usd": 28.0,
+      "priority": 8.5,
+      "description": "Late-evening music venue with ticketed entry.",
+      "tags": [
+        "music",
+        "nightlife"
+      ]
+    }
+  ],
+  "strategy_comparison": [
+    {
+      "strategy": "greedy",
+      "total_score": 307.149544,
+      "total_minutes": 442.078,
+      "total_cost_usd": 84.0,
+      "stops": [
+        {
+          "stop_index": 1,
+          "name": "River Walk",
+          "travel_minutes": 30.858,
+          "visit_minutes": 50,
+          "cost_usd": 0.0,
+          "score_gain": 51.94247,
+          "cumulative_minutes": 80.858,
+          "cumulative_cost_usd": 0.0
+        },
+        {
+          "stop_index": 2,
+          "name": "Street Food Market",
+          "travel_minutes": 19.972,
+          "visit_minutes": 70,
+          "cost_usd": 24.0,
+          "score_gain": 69.01821,
+          "cumulative_minutes": 170.83,
+          "cumulative_cost_usd": 24.0
+        },
+        {
+          "stop_index": 3,
+          "name": "Historic Museum",
+          "travel_minutes": 14.007,
+          "visit_minutes": 85,
+          "cost_usd": 18.0,
+          "score_gain": 70.39536,
+          "cumulative_minutes": 269.837,
+          "cumulative_cost_usd": 42.0
+        },
+        {
+          "stop_index": 4,
+          "name": "City Observation Deck",
+          "travel_minutes": 31.664,
+          "visit_minutes": 60,
+          "cost_usd": 30.0,
+          "score_gain": 47.91849,
+          "cumulative_minutes": 361.501,
+          "cumulative_cost_usd": 72.0
+        },
+        {
+          "stop_index": 5,
+          "name": "Art District",
+          "travel_minutes": 15.577,
+          "visit_minutes": 65,
+          "cost_usd": 12.0,
+          "score_gain": 67.87501,
+          "cumulative_minutes": 442.078,
+          "cumulative_cost_usd": 84.0
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "strategy": "brute_force",
+      "total_score": 391.825875,
+      "total_minutes": 502.191,
+      "total_cost_usd": 100.0,
+      "stops": [
+        {
+          "stop_index": 1,
+          "name": "Historic Museum",
+          "travel_minutes": 21.633,
+          "visit_minutes": 85,
+          "cost_usd": 18.0,
+          "score_gain": 65.43835,
+          "cumulative_minutes": 106.633,
+          "cumulative_cost_usd": 18.0
+        },
+        {
+          "stop_index": 2,
+          "name": "Street Food Market",
+          "travel_minutes": 14.007,
+          "visit_minutes": 70,
+          "cost_usd": 24.0,
+          "score_gain": 72.89536,
+          "cumulative_minutes": 190.64,
+          "cumulative_cost_usd": 42.0
+        },
+        {
+          "stop_index": 3,
+          "name": "Botanical Garden",
+          "travel_minutes": 18.366,
+          "visit_minutes": 75,
+          "cost_usd": 16.0,
+          "score_gain": 63.06192,
+          "cumulative_minutes": 284.007,
+          "cumulative_cost_usd": 58.0
+        },
+        {
+          "stop_index": 4,
+          "name": "Art District",
+          "travel_minutes": 11.463,
+          "visit_minutes": 65,
+          "cost_usd": 12.0,
+          "score_gain": 70.54906,
+          "cumulative_minutes": 360.47,
+          "cumulative_cost_usd": 70.0
+        },
+        {
+          "stop_index": 5,
+          "name": "City Observation Deck",
+          "travel_minutes": 15.577,
+          "visit_minutes": 60,
+          "cost_usd": 30.0,
+          "score_gain": 58.37501,
+          "cumulative_minutes": 436.047,
+          "cumulative_cost_usd": 100.0
+        },
+        {
+          "stop_index": 6,
+          "name": "River Walk",
+          "travel_minutes": 16.144,
+          "visit_minutes": 50,
+          "cost_usd": 0.0,
+          "score_gain": 61.50617,
+          "cumulative_minutes": 502.191,
+          "cumulative_cost_usd": 100.0
+        }
+      ],
+      "feasible": true
+    }
+  ],
+  "selected_plan": {
+    "strategy": "brute_force",
+    "total_score": 391.825875,
+    "total_minutes": 502.191,
+    "total_cost_usd": 100.0,
+    "stops": [
+      {
+        "stop_index": 1,
+        "name": "Historic Museum",
+        "travel_minutes": 21.633,
+        "visit_minutes": 85,
+        "cost_usd": 18.0,
+        "score_gain": 65.43835,
+        "cumulative_minutes": 106.633,
+        "cumulative_cost_usd": 18.0
+      },
+      {
+        "stop_index": 2,
+        "name": "Street Food Market",
+        "travel_minutes": 14.007,
+        "visit_minutes": 70,
+        "cost_usd": 24.0,
+        "score_gain": 72.89536,
+        "cumulative_minutes": 190.64,
+        "cumulative_cost_usd": 42.0
+      },
+      {
+        "stop_index": 3,
+        "name": "Botanical Garden",
+        "travel_minutes": 18.366,
+        "visit_minutes": 75,
+        "cost_usd": 16.0,
+        "score_gain": 63.06192,
+        "cumulative_minutes": 284.007,
+        "cumulative_cost_usd": 58.0
+      },
+      {
+        "stop_index": 4,
+        "name": "Art District",
+        "travel_minutes": 11.463,
+        "visit_minutes": 65,
+        "cost_usd": 12.0,
+        "score_gain": 70.54906,
+        "cumulative_minutes": 360.47,
+        "cumulative_cost_usd": 70.0
+      },
+      {
+        "stop_index": 5,
+        "name": "City Observation Deck",
+        "travel_minutes": 15.577,
+        "visit_minutes": 60,
+        "cost_usd": 30.0,
+        "score_gain": 58.37501,
+        "cumulative_minutes": 436.047,
+        "cumulative_cost_usd": 100.0
+      },
+      {
+        "stop_index": 6,
+        "name": "River Walk",
+        "travel_minutes": 16.144,
+        "visit_minutes": 50,
+        "cost_usd": 0.0,
+        "score_gain": 61.50617,
+        "cumulative_minutes": 502.191,
+        "cumulative_cost_usd": 100.0
+      }
+    ],
+    "feasible": true
+  },
+  "history_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\46-travel-itinerary-optimizer\\data\\itinerary_history.json"
+}
